@@ -49,7 +49,7 @@ stages:
           - task: AzureCLI@2
             displayName: Set extraction variables
             inputs:
-              azureSubscription: "$(SERVICE_CONNECTION_NAME)"
+              azureSubscription: "rakeshinsight"
               scriptType: pscore
               scriptLocation: inlineScript
               inlineScript: |
